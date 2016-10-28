@@ -1,0 +1,14 @@
+{ "questions": [{
+    "question": "What is the meaning of life?",
+    "author": "Lucas",
+    "notes": "I am just curious."
+  }, {
+    "question": "Why am I still hungry?",
+    "author": "Xavier",
+    "notes": "I literally just ate."
+  }, {
+    "question": "Where in Iceland should I visit?",
+    "author": "Meredith",
+    "notes": "I want to see beautiful landscapes."
+  }]
+}
