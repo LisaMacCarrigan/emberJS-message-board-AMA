@@ -1,17 +1,16 @@
+<div class="jumbotron jumbotron-fluid">
+<h2>Curiosity has its own reason for existing.</h2>
+<h4>-Albert Einstein</h4>
 
-  <div class="jumbotron jumbotron-fluid">
-  <h2>Curiosity has its own reason for existing.</h2>
-  <h4>-Albert Einstein</h4>
+  {{new-question submitQuestion2="submitQuestion3"}}
 
-    {{new-question submitQuestion2="submitQuestion3"}}
-
+</div>
+<div class="row">
+  <div class="main-content">
+    <ul class="list-group">
+      {{#each model as |question|}}
+        {{question-list question=question}}
+      {{/each}}
+    </ul>
   </div>
-  <div class="row">
-    <div class="main-content">
-      <ul class="list-group">
-        {{#each model as |question|}}
-          {{question-list question=question}}
-        {{/each}}
-      </ul>
-    </div>
-  </div>
+</div>
