@@ -1,9 +1,10 @@
 <div class="container container-centered">
-  <div class="row">
-  <h1>Message Board</h1>
+  <div class="jumbotron">
+  <h2>Message Board</h2>
 
     {{new-question submitQuestion2="submitQuestion3"}}
-
+  </div>
+  <div class="row">
     <ul class="list-group">
       {{#each model as |question|}}
         {{question-list question=question edit="edit" destroyQuestion="destroyQuestion"}}
