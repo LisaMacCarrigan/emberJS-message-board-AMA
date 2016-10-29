@@ -1,10 +1,10 @@
 {{#if addNewQuestion}}
-  <h1>New Question</h1>
+  <h2>Ask New Question</h2>
   <div>
     <form>
       <div class="form-group">
         <label for="owner">Question</label>
-        {{input class="form-control" value=question id="question"}}
+        {{textarea class="form-control" value=question id="question"}}
       </div>
 
       <div class="form-group">
@@ -17,11 +17,11 @@
         {{input class="form-control" value=notes id="notes"}}
       </div>
 
-      <button {{action 'submitQuestion1'}}>Submit</button>
+      <button {{action 'submitQuestion1'}} class="btn btn-warning btn-lg ask">Submit</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'questionFormShow'}} class="btn btn-warning btn-lg">
+  <button {{action 'questionFormShow'}} class="btn btn-warning btn-lg ask">
     <span class="glyphicon glyphicon-plus"></span> Ask Question
   </button>
 {{/if}}

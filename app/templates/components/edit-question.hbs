@@ -1,10 +1,10 @@
 {{#if editQuestionForm}}
-  <h5>Edit {{question.author}}'s Q: {{question.question}}</h5>
+  <p id="edit-prompt">Edit the fields below and select "submit" to save your changes.</p>
   <div>
     <form>
       <div class="form-group">
         <label for="input_question">Question</label>
-        {{input class="form-control" value=input_question id="input_question" placeholder=question.question}}
+        {{textarea class="form-control" value=input_question id="input_question" placeholder=question.question}}
       </div>
 
       <div class="form-group">
@@ -17,8 +17,8 @@
         {{input class="form-control" value=notes id="notes" placeholder=question.notes}}
       </div>
 
-      <button {{action 'edit' question}} class="btn btn-success btn-md">
-        <span class="glyphicon glyphicon-plus"></span> Resubmit
+      <button {{action 'edit' question}} class="btn btn-success btn-sm">
+        <span class="glyphicon glyphicon-plus"></span> Submit
       </button>
 
     </form>
