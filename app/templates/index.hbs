@@ -1,16 +1,14 @@
-<div class="container">
+<div class="container container-centered">
   <div class="row">
-  <h1> Welcome to Message Board </h1>
+  <h1>Message Board</h1>
 
-    <p>Ask questions.</p>
+    {{new-question submitQuestion2="submitQuestion3"}}
 
     <ul class="list-group">
       {{#each model as |question|}}
         {{question-list question=question edit="edit" destroyQuestion="destroyQuestion"}}
       {{/each}}
     </ul>
-
-    {{new-question submitQuestion2="submitQuestion3"}}
 
   </div>
 </div>
