@@ -1,5 +1,6 @@
 <li class="list-group-item">
   Q: {{question.question}} - submitted by {{question.author}}
+  {{edit-question question=question edit="edit"}}
   <button {{action 'delete' question}} class="btn btn-danger btn-xs">
     <span class="glyphicon glyphicon-trash"></span> Delete
   </button>
