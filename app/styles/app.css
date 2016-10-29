@@ -1,5 +1,5 @@
 body {
-  background-color: #eea236;
+  background-color: #FF6542;
 }
 
 .main-content {
@@ -8,13 +8,19 @@ body {
   margin-left: 15%;
 }
 
+
+div.container {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
 .footer {
    position: fixed;
    left: 0px;
    bottom: 0px;
    height: 40px;
    width: 100%;
-   background: #333;
+   background: #333333;
 }
 
 #footer-text {
@@ -38,14 +44,16 @@ button.navbar-toggle {
   width: auto;
 }
 
-.jumbotron {
+.container .jumbotron {
   text-align: center;
   margin-bottom: 15px;
+  border-radius: 0px;
+  background-color: #FFFFFF;
 }
 
 .list-group-item {
   text-align: center;
-  border-radius: none;
+  border: none;
 }
 
 .list-group-item:last-child {
