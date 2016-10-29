@@ -1,13 +1,15 @@
+.main-content {
+  margin-bottom: 25px;
+}
+
 .footer {
-   position:fixed;
+   position: fixed;
    left: 0px;
    bottom: 0px;
    height: 40px;
    width: 100%;
    background: #333;
-
 }
-
 #footer-text {
   color: #ffffff;
   text-align: center;

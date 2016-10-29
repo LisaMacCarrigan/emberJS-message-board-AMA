@@ -5,11 +5,12 @@
     {{new-question submitQuestion2="submitQuestion3"}}
   </div>
   <div class="row">
-    <ul class="list-group">
-      {{#each model as |question|}}
-        {{question-list question=question edit="edit" destroyQuestion="destroyQuestion"}}
-      {{/each}}
-    </ul>
-
+    <div class="main-content">
+      <ul class="list-group">
+        {{#each model as |question|}}
+          {{question-list question=question edit="edit" destroyQuestion="destroyQuestion"}}
+        {{/each}}
+      </ul>
+    </div>
   </div>
 </div>
