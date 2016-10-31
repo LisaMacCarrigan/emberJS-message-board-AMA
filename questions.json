@@ -10,5 +10,12 @@
     "question": "Where in Iceland should I visit?",
     "author": "Meredith",
     "notes": "I want to see beautiful landscapes."
+  }],
+  "answers": [{
+    "answer": "The meaning of life cannot be answered with a blanket statement. Each individual must find his or her own meaning.",
+    "author": "Katherine"
+  }, {
+    "answer": "Perhaps you didn't eat enough today.",
+    "author": "Anonymous"
   }]
 }
