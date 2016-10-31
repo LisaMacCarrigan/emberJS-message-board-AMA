@@ -3,11 +3,21 @@
   src: url('./fonts/DJB_On_the_Spot.ttf');
 }
 
+@font-face {
+  font-family: 'quote';
+  src: url('./fonts/neoteric.ttf')
+}
+
 #brand a {
   text-decoration: none;
   font-size: 25px;
   font-family: 'brand', sans-serif;
   color: #f0ad4e;
+}
+
+.quote {
+  font-family: 'quote', sans-serif;
+  font-weight: bold;
 }
 
 body {
@@ -68,7 +78,7 @@ button.navbar-toggle {
 }
 
 .list-group-item {
-  text-align: justify;
+  text-align: left;
   border: none;
 }
 

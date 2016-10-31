@@ -8,11 +8,17 @@ export default Ember.Component.extend({
     },
 
     submitQuestion1() {
-      var params = {
-        question: this.get('question'),
-        author: this.get('author'),
-        notes: this.get('notes'),
-      };
+      if(this.get('question')) {
+        var params = {
+          question: this.get('question'),
+          author: this.get('author'),
+          notes: this.get('notes'),
+        };
+      } else {
+        alert("Hi! You must enter a question to continue.");
+        return;
+      }
+
       this.set('addNewQuestion', false);
       this.sendAction('submitQuestion2', params);
       this.set('question', '');
