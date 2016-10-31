@@ -49,6 +49,7 @@ button {
 
 button.ask {
   width: auto;
+  margin-top: 15px;
 }
 
 button.navbar-toggle {
