@@ -28,7 +28,6 @@ export default Ember.Component.extend({
         alert("Hi! You must enter a question to continue.");
         return;
       }
-
     }
   }
 });
