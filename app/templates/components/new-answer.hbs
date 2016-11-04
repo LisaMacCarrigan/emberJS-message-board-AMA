@@ -9,8 +9,8 @@
       </div>
 
       <div class="form-group">
-        <label for="author">Author:</label>
-        {{input class="form-control" value=author id="author"}}
+        <label for="author_answer">Author:</label>
+        {{input class="form-control" value=author_answer id="author_answer"}}
       </div>
 
       <button {{action 'submitAnswer1'}} class="btn btn-warning btn-lg ask">Submit</button>
@@ -18,6 +18,6 @@
   </div>
 {{else}}
   <button {{action 'answerFormShow'}} class="btn btn-warning btn-lg ask">
-    <span class="glyphicon glyphicon-plus"></span> Submit Answer
+    <span class="glyphicon glyphicon-plus"></span> Post Answer
   </button>
 {{/if}}
