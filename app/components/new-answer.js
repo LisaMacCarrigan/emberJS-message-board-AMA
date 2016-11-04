@@ -22,7 +22,7 @@ export default Ember.Component.extend({
         this.sendAction('submitAnswer2', params);
         this.set('addNewAnswer', false);
         this.set('answer', '');
-        this.set('author', '');
+        this.set('author_answer', '');
       } else {
         alert("Hello, helpful person. Please provide an answer!");
         return;

@@ -2,13 +2,21 @@
   <h4>{{question.author}} asked:</h4>
   <h3>Q: {{question.question}}?</h3>
   <br>
+  {{#if question.notes}}
   <h5>Notes: {{question.notes}}</h5>
-  <hr>
-  <h3> All Answers </h3>
-  <ul class="list-group">
-    {{#each question.answers as |answer|}}
-      {{answer-list answer=answer}}
-    {{/each}}
-  </ul>
+  {{/if}}
+
+  {{#if question.answers}}
+    <hr>
+    <h4> All Answers: </h4>
+    <ul class="list-group">
+      {{#each question.answers as |answer|}}
+        {{answer-list answer=answer}}
+      {{/each}}
+    </ul>
+  {{else}}
+    <hr>
+    <h4>There are currently no answers to this question</h4>
+  {{/if}}
 
 </div>
