@@ -12,6 +12,7 @@ export default Ember.Component.extend({
         var params = {
           answer: this.get('answer'),
           author: this.get('author_answer'),
+          question: this.get('question')
         };
         if (params.author === '') {
           params.author = "Anonymous";
