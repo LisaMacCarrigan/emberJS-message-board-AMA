@@ -103,3 +103,8 @@ form {
   margin-right: 15%;
   margin-left: 15%;
 }
+
+.glyphicon-ok {
+  color: #f0ad4e;
+  font-size: 12px;
+}

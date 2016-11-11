@@ -1,4 +1,7 @@
 <li class="list-group-item">
-  <h4 id="question-display"><span class="glyphicon glyphicon-flash"> </span>{{#link-to 'question' question.id}} {{question.question}}{{/link-to}}</h4>
-  <h5 id="author-display">- Pondered by {{question.author}}</h5>
+    <h4 id="question-display">{{#link-to 'question' question.id}} {{question.question}}{{/link-to}}</h4>
+    <div>
+      <h5 id="author-display">- Pondered by {{question.author}}</h5>
+      {{questionAnswered question}}
+    </div>
 </li>
