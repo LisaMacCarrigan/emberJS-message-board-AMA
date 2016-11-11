@@ -97,3 +97,9 @@ button.navbar-toggle {
 form {
   margin-bottom: 15px;
 }
+
+.form-wrapper {
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
