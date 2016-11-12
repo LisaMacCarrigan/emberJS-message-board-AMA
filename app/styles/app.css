@@ -77,9 +77,18 @@ button.navbar-toggle {
   text-align: left;
 }
 
+.question-display {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.author-display {
+  text-align: right;
+}
+
 .list-group-item {
   text-align: left;
-  border: none;
+  /*border: none;*/
 }
 
 .list-group-item:last-child {
@@ -104,7 +113,8 @@ form {
   margin-left: 15%;
 }
 
-.glyphicon-ok {
+#checkmark {
+  text-align: right;
   color: #f0ad4e;
-  font-size: 12px;
+  font-size: 11px;
 }
