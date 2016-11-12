@@ -1,5 +1,5 @@
 <li class="list-group-item">
     <p class="question-display">{{#link-to 'question' question.id}} {{question.question}}{{/link-to}}</p>
-    <p class="author-display">- Pondered by {{question.author}}</p>
+    <p class="author-display">- Pondered by {{question.author}} {{question.date}}</p>
     {{questionAnswered question}}
 </li>

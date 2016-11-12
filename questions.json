@@ -1,15 +1,18 @@
 { "questions": [{
     "question": "What is the meaning of life?",
     "author": "Lucas",
-    "notes": "I am just curious."
+    "notes": "I am just curious.",
+    "date": "11/12/2016"
   }, {
     "question": "Why am I still hungry?",
     "author": "Xavier",
-    "notes": "I literally just ate."
+    "notes": "I literally just ate.",
+    "date": "10/31/2016"
   }, {
     "question": "Where in Iceland should I visit?",
     "author": "Meredith",
-    "notes": "I want to see beautiful landscapes."
+    "notes": "I want to see beautiful landscapes.",
+    "date": "11/07/2016"
   }],
   "answers": [{
     "answer": "The meaning of life cannot be answered with a blanket statement. Each individual must find his or her own meaning.",
