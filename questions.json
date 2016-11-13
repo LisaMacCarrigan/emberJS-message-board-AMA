@@ -16,9 +16,11 @@
   }],
   "answers": [{
     "answer": "The meaning of life cannot be answered with a blanket statement. Each individual must find his or her own meaning.",
-    "author": "Katherine"
+    "author": "Katherine",
+    "votes": 2
   }, {
     "answer": "Perhaps you didn't eat enough today.",
-    "author": "Anonymous"
+    "author": "Anonymous",
+    "votes": 0
   }]
 }
