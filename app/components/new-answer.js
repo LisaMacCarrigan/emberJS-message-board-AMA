@@ -15,6 +15,7 @@ export default Ember.Component.extend({
           question: this.get('question')
         };
         if (params.author === '') {
+          // this now only works when the input field is clicked
           params.author = "Anonymous";
         }
 

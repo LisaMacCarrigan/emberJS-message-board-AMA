@@ -66,6 +66,20 @@ button.navbar-toggle {
   width: auto;
 }
 
+button.upvote {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.vote-wrapper {
+  text-align: right;
+}
+
+.answer-attr {
+  float: left;
+}
+
 .container .jumbotron {
   text-align: center;
   margin-bottom: 20px;
