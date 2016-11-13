@@ -1,6 +1,6 @@
 <li class="list-group-item">
   <div class="answer-attr">
-    <h4>{{answer.author}}: {{answer.answer}}</h4>
+    <h4 class="answer-author">{{answer.author}}:</h4>{{answer.answer}}
   </div>
   <div class="vote-wrapper">
     <button class="btn btn-default btn-xs upvote" {{action 'upvote'}}><span class="glyphicon glyphicon-arrow-up"></span> {{answer.votes}}</button>

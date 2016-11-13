@@ -1,3 +1,5 @@
+/* ------------------------------ Body Styles ------------------------------- */
+
 @font-face {
   font-family: 'brand';
   src: url('./fonts/DJB_On_the_Spot.ttf');
@@ -6,18 +8,6 @@
 @font-face {
   font-family: 'quote';
   src: url('./fonts/neoteric.ttf')
-}
-
-#brand a {
-  text-decoration: none;
-  font-size: 25px;
-  font-family: 'brand', sans-serif;
-  color: #f0ad4e;
-}
-
-.quote {
-  font-family: 'quote', sans-serif;
-  font-weight: bold;
 }
 
 body {
@@ -34,6 +24,22 @@ div.container {
   width: 95%;
   margin-bottom: 40px;
 }
+/* ------------------------------ Navbar Styles ------------------------------ */
+
+#brand a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'brand', sans-serif;
+  color: #f0ad4e;
+}
+
+/* ---------------------------- Jumbotron Styles ----------------------------- */
+.quote {
+  font-family: 'quote', sans-serif;
+  font-weight: bold;
+}
+
+/* ------------------------------ Footer Styles ------------------------------ */
 
 .footer {
    position: fixed;
@@ -49,6 +55,8 @@ div.container {
   text-align: center;
   padding-top: 9px;
 }
+
+/* ------------------------------ Button Styles ------------------------------ */
 
 button {
   display: inline-block;
@@ -76,8 +84,15 @@ button.upvote {
   text-align: right;
 }
 
-.answer-attr {
-  float: left;
+/* --------------------------- Answer-list Styles ---------------------------- */
+
+.answer-author {
+  font-weight: bold;
+}
+
+.question {
+  font-weight: bold;
+  color: #f0ad4e;
 }
 
 .container .jumbotron {
