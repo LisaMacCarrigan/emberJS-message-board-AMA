@@ -4,7 +4,7 @@ import moment from 'moment';
 export default Ember.Component.extend({
 
   formattedTime: Ember.computed(function() {
-    var dateTime = moment().format('ddd MMM DD YYYY');
+    var dateTime = moment().calendar();
     return dateTime;
   }),
 
