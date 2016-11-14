@@ -1,6 +1,13 @@
 import Ember from 'ember';
+import moment from 'moment';
 
 export default Ember.Component.extend({
+
+  formattedTime: Ember.computed(function() {
+    var dateTime = moment().format('ddd MMM DD YYYY');
+    return dateTime;
+  }),
+
   addNewQuestion: false,
   actions: {
     questionFormShow() {
@@ -13,7 +20,7 @@ export default Ember.Component.extend({
           question: this.get('question'),
           author: this.get('author'),
           notes: this.get('notes'),
-          date: Date()
+          date: this.get('formattedTime')
         };
         if (params.author === '') {
           // this now only works when the input field is clicked

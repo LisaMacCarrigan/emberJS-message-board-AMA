@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import moment from 'moment';
 
 export default Ember.Route.extend({
   model() {
@@ -9,6 +10,7 @@ export default Ember.Route.extend({
   },
   actions:  {
     submitQuestion3(params) {
+      console.log(params);
       var newQuestion = this.store.createRecord('question', params);
       newQuestion.save();
       this.transitionTo('index');
