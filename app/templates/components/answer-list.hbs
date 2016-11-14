@@ -3,6 +3,7 @@
     <h4 class="answer-author">{{answer.author}}:</h4>{{answer.answer}}
   </div>
   <div class="vote-wrapper">
-    <button class="btn btn-default btn-xs upvote" {{action 'upvote'}}><span class="glyphicon glyphicon-arrow-up"></span> {{answer.votes}}</button>
+     {{answer.votes}}
+    <button class="btn btn-default btn-xs upvote" {{action 'upvote' answer}}><span class="glyphicon glyphicon-arrow-up"></span></button>
   </div>
 </li>

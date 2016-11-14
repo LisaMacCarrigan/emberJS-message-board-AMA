@@ -2,4 +2,5 @@
     <p class="question-display">{{#link-to 'question' question.id}} {{question.question}}{{/link-to}}</p>
     <p class="author-display">- Pondered by {{question.author}} {{question.date}}</p>
     {{questionAnswered question}}
+    <button {{action 'addFavorite' question}}>Favorite</button>
 </li>
