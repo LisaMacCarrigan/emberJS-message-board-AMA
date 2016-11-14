@@ -1,3 +1,19 @@
-{{#each favorites.markedFavorites as |question|}}
-  {{question.question}}
-{{/each}}
+<div class="main-content">
+  {{#if favorites.markedFavorites}}
+  <ul class="list-group">
+    <h2>Favorites</h2>
+      {{#each favorites.markedFavorites as |question|}}
+        <li class="list-group-item">
+          <div class="question-display-wrapper">
+            <p class="question-display">{{#link-to 'question' question.id}} {{question.question}}{{/link-to}}</p>
+          </div>
+
+          <p class="author-display">- Pondered by {{question.author}} {{question.date}}</p>
+          {{questionAnswered question}}
+        </li>
+      {{/each}}
+    </ul>
+  {{else}}
+    <h4>There are currently no pinned questions.</h4>
+  {{/if}}
+</div>
