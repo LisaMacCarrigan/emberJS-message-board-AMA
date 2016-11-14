@@ -1,6 +1,11 @@
 <li class="list-group-item">
+  <div class="mark-favorite-wrapper">
+    <button class="btn btn-default btn-xs pull-right" id="mark-favorite" {{action 'addFavorite' question}}><span class="glyphicon glyphicon-pushpin"></span></button>
+  </div>
+  <div class="question-display-wrapper">
     <p class="question-display">{{#link-to 'question' question.id}} {{question.question}}{{/link-to}}</p>
-    <p class="author-display">- Pondered by {{question.author}} {{question.date}}</p>
-    {{questionAnswered question}}
-    <button {{action 'addFavorite' question}}>Favorite</button>
+  </div>
+
+  <p class="author-display">- Pondered by {{question.author}} {{question.date}}</p>
+  {{questionAnswered question}}
 </li>
