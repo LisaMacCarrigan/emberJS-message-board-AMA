@@ -1,5 +1,11 @@
 # Message-board
 
+#### By [Lisa MacCarrigan](https://github.com/lisamaccarrigan)
+
+![screenshot of project main page](/public/images/web-app.png)
+
+## Description
+
 An Ember.js application that emulates a question and answer message board. This application includes a series of components, dynamic routing, model relationships, custom helpers, computed properties, and a service.
 
 ## Prerequisites
@@ -28,24 +34,35 @@ You will need the following things properly installed on your computer.
 
 Make use of the many generators for code, try `ember help generate` for more details
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
 ### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Technologies Used
 
-Specify what it takes to deploy your app.
+* HTML
+* CSS
+* JavaScript
+* Ember.js / Ember CLI
+* Node.js
+* Bower
+* Firebase
+
+## Known Bugs
+
+* In order for the value of "Anonymous" to be assigned to the "Author" attribute for a question or answer when a user leaves the field blank, the field itself must be triggered with a click. This will be resolved in the next release.
 
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://ember-cli.com/)
 * Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+* [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## License
+
+*This application is licensed under the MIT license*
+
+Copyright (c) 2016 [Lisa MacCarrigan](https://github.com/lisamaccarrigan)
