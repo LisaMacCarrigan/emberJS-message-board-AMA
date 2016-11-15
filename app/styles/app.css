@@ -30,7 +30,7 @@ div.container {
   text-decoration: none;
   font-size: 25px;
   font-family: 'brand', sans-serif;
-  color: #f0ad4e;
+  color: #F0AD4E;
 }
 
 /* ---------------------------- Jumbotron Styles ----------------------------- */
@@ -62,7 +62,6 @@ button {
   display: inline-block;
   width: 80px;
   margin: 1px;
-
 }
 
 button.ask {
@@ -123,7 +122,7 @@ button.upvote {
 }
 
 .mark-favorite-wrapper button:hover {
-  background-color: #f0AD4E;
+  background-color: #F0AD4E;
 }
 
 .list-group-item {
