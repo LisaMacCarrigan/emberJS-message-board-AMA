@@ -10,10 +10,6 @@
   src: url('./fonts/neoteric.ttf')
 }
 
-body {
-  background-color: #FF6542;
-}
-
 .main-content {
   margin-bottom: 25px;
   margin-right: 20%;
@@ -24,6 +20,20 @@ div.container {
   width: 95%;
   margin-bottom: 40px;
 }
+
+a {
+ color: #F0AD4E;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F05C4E;
+
+}
+
 /* ------------------------------ Navbar Styles ------------------------------ */
 
 #brand a {
@@ -39,6 +49,15 @@ div.container {
   font-weight: bold;
 }
 
+.container .jumbotron {
+  text-align: center;
+  max-width: 668px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-color: #F2F2F2;
+}
+
 /* ------------------------------ Footer Styles ------------------------------ */
 
 .footer {
@@ -51,7 +70,7 @@ div.container {
 }
 
 #footer-text {
-  color: #ffffff;
+  color: #FFF;
   text-align: center;
   padding-top: 9px;
 }
@@ -91,14 +110,7 @@ button.upvote {
 
 .question {
   font-weight: bold;
-  color: #f0ad4e;
-}
-
-.container .jumbotron {
-  text-align: center;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  background-color: #FFFFFF;
+  color: #F05C4E;
 }
 
 #question-details {
@@ -127,7 +139,9 @@ button.upvote {
 
 .list-group-item {
   text-align: left;
-  /*border: none;*/
+  max-width: 668px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .list-group-item:last-child {
@@ -161,4 +175,14 @@ form {
 .posted {
   font-size: 11px;
   font-weight: bold;
+}
+
+.button-block {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-lg {
+  font-size: 19px;
 }
