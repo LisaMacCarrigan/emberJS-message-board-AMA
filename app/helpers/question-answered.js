@@ -6,6 +6,7 @@ export function questionAnswered(params/*, hash*/) {
   if(question.get('answers').get('length') >=1) {
     return Ember.String.htmlSafe('<div class="checkmark"><span class="glyphicon glyphicon-ok"></span><span> Answered</span></div>');
   }
+
 }
 
 export default Ember.Helper.helper(questionAnswered);
